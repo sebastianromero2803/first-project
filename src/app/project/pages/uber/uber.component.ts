@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-uber',
   templateUrl: './uber.component.html',
   styleUrls: ['./uber.component.scss']
 })
-export class UberComponent implements OnInit {
+export class UberComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
